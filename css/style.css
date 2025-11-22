@@ -1,0 +1,156 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* BODY */
+body {
+    background-color: #ffe6f2; /* soft baby pink */
+    color: #444;
+    line-height: 1.6;
+    padding-bottom: 40px;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    background-color: #ffb6d9; /* medium baby pink */
+    padding: 40px 20px;
+    border-bottom: 3px solid hotpink;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: hotpink;
+    font-weight: 700;
+}
+
+header p {
+    color: #7a004d;
+    font-size: 1.1rem;
+}
+
+/* NAVIGATION BAR */
+nav {
+    background-color: hotpink;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffe6f2; /* lighter pink on hover */
+}
+
+/* SECTIONS */
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* ABOUT */
+#about h2,
+#projects h2,
+#contact h2 {
+    font-size: 2rem;
+    color: hotpink;
+    margin-bottom: 20px;
+    border-left: 6px solid hotpink;
+    padding-left: 12px;
+}
+
+.profile-photo {
+    width: 300px;       /* adjust size */
+    height: 300px;
+    border-radius: 50%; /* makes it circular */
+    border: 3px solid hotpink;
+    display: block;
+    margin: 20px auto;  /* centers the image */
+}
+
+/* PROJECTS */
+.project-item {
+    background-color: #ffd1ec;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid hotpink;
+}
+
+.project-item img {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid hotpink;
+    margin-bottom: 10px;
+}
+
+/* FORM */
+form {
+    background-color: #ffd1ec;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid hotpink;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #7a004d;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 2px solid hotpink;
+    background: #fff0fa;
+}
+
+button {
+    margin-top: 15px;
+    background-color: hotpink;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ff66b3;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffb6d9;
+    color: #7a004d;
+    border-top: 3px solid hotpink;
+}

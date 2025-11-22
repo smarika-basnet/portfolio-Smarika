@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Smarika's Portfolio</h1>
+        <p>Welcome to my portfolio!</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>Get To Know Me<3</h2>
+        <img src="images/me.png" alt="My Photo" class="profile-photo">
+        <p>Hieee!!! My name is Smarika Basnet. I was born in Aug 22nd of 2006 that makes me 19 yrs old. I am currenly living in Kathmandu, Kamalpokhari but my permanent residence is in Sundarijal. I am studying BIT in herald college kathmandu. The environment here is very fresh and the people are very friendly to talk to. Studying here drives me to work harder and motivates me to reach towards my goal. People say I am a very extrovert person but I'd say I'm selectively extrovert I am quite reserved at first. That's all I have to say :D! </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <!-- Screenshot will go here later -->
+        <div class="project-item">
+            <img src="images/project1.png" alt="Screenshot of my project" />
+            <p>This is a virtual game I made using unity editor.In this game the bus has to reach till the end of the time limit without crashing.</p>
+        </div>
+
+        <div class="project-item">
+            <img src="images/project2.png" alt="Screenshot of my project" />
+            <p>This is a simple Weather App I made that shows the current weather of any city using the OpenWeather API.
+            Users can enter a city name and instantly get temperature, weather condition, and other details.</p>
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" rows="2" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy 2025 Smarika Basnet. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
